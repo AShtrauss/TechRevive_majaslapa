@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sūdzību iesniegšana - TechRevive</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">TechRevive</div>
+      </div>
+      <div class="nav-links">
+        <a href="parmums.html">Par mums</a>
+        <a href="#">Datoru serviss</a>
+        <a href="#">Telefonu serviss</a>
+        <a href="#" class="register-btn">
+          <img src="generated-icon.png" alt="Register">
+          Reģistrēties
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="complaint-form">
+    <h1>Sūdzību iesniegšana</h1>
+    <p class="form-intro">Neesi apmierināts ar mūsu servisu, vai tev ir kādi ieteikumi?<br>Sniedz mums viedokli un mūsu komanda to izvērtēs!</p>
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Vārds</label>
+        <input type="text" id="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">E-pasts</label>
+        <input type="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="surname">Uzvārds</label>
+        <input type="text" id="surname" required>
+      </div>
+
+      <div class="form-group full-width">
+        <label for="complaint">Problēma ar ko esat saskāries/usies</label>
+        <textarea id="complaint" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Iesniegt sūdzību</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="address">
+      <img src="location-icon.png" alt="Location">
+      Zirņu iela 8
+    </div>
+    <div class="hours">pirmmd-piektd: 9:00 - 18:00</div>
+  </footer>
+</body>
+</html>
