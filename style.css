@@ -139,3 +139,40 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.complaint-form {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.complaint-form h1 {
+  color: #1e3a5f;
+  margin-bottom: 1rem;
+}
+
+.complaint-form p {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}

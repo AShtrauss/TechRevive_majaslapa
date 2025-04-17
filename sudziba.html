@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sūdzību ieniešana - TechRevive</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">TechRevive</div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="complaint-form">
+    <h1>Sūdzību ieniešana</h1>
+    <p>Neesi apmierināts ar mūsu servisu, vai tev ir kādi ieteikumi?<br>
+    Sniedz mums viedokli un mūsu komanda to izvērtēs!</p>
+    
+    <form>
+      <div class="form-group">
+        <label for="name">Vārds</label>
+        <input type="text" id="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">E-pasts</label>
+        <input type="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="username">Uzvārds</label>
+        <input type="text" id="username" required>
+      </div>
+
+      <div class="form-group">
+        <label for="complaint">Problēma ar ko esat saskāries/usies</label>
+        <textarea id="complaint" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-complaint">Iesniegt</button>
+    </form>
+  </main>
+</body>
+</html>
