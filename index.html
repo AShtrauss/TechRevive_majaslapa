@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Sūdzību iesniegšana - TechRevive</title>
+  <title>TechRevive - Datoru un telefonu serviss</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -26,33 +26,29 @@
     </nav>
   </header>
 
-  <main class="complaint-form">
-    <h1>Sūdzību iesniegšana</h1>
-    <p class="form-intro">Neesi apmierināts ar mūsu servisu, vai tev ir kādi ieteikumi?<br>Sniedz mums viedokli un mūsu komanda to izvērtēs!</p>
-    
-    <form class="contact-form">
-      <div class="form-group">
-        <label for="name">Vārds</label>
-        <input type="text" id="name" required>
+  <main>
+    <section class="hero">
+      <h1>Jūsu datora drošība un veiktspēja – mūsu prioritāte!</h1>
+      <div class="service-icons">
+        <div class="icon-grid">
+          <img src="computersetup.png" alt="Ātrs remonts">
+          <span>Ātrs remonts</span>
+          <img src="computersetup.png" alt="Godīgas cenas">
+          <span>Godīgas cenas</span>
+        </div>
       </div>
-      
-      <div class="form-group">
-        <label for="email">E-pasts</label>
-        <input type="email" id="email" required>
-      </div>
+    </section>
 
-      <div class="form-group">
-        <label for="surname">Uzvārds</label>
-        <input type="text" id="surname" required>
+    <section class="sections">
+      <div class="section">
+        <h2>Parūpējies par savām ierīcēm</h2>
+        <img src="plant.png" alt="Plant">
       </div>
-
-      <div class="form-group full-width">
-        <label for="complaint">Problēma ar ko esat saskāries/usies</label>
-        <textarea id="complaint" rows="4" required></textarea>
+      <div class="section">
+        <h2>Foto Galerija</h2>
+        <img src="computersetup.png" alt="Computer Setup">
       </div>
-
-      <button type="submit" class="submit-btn">Iesniegt sūdzību</button>
-    </form>
+    </section>
   </main>
 
   <footer>
@@ -61,6 +57,7 @@
       Zirņu iela 8
     </div>
     <div class="hours">pirmmd-piektd: 9:00 - 18:00</div>
+    <button class="submit-complaint">Iesniegt sūdzību</button>
   </footer>
 </body>
 </html>
